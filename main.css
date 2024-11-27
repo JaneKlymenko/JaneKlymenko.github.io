@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  /* background-color: #2f1893; */
+  background-color: #722da0;
+  color: #fff;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 90px;
+}
+h2 {
+  font-size: 72px;
+}
+h3 {
+  font-size: 60px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+}
+#home {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./img/home_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 80px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+}
+
+#about,
+#works {
+  background-color: #231950;
+  height: 100vh;
+  width: 100vw;
+  padding: 100px 80px;
+  text-align: center;
+}
+
+#skills {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./img/skills_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 80px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+}
+
+#contacts {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./img/contacts_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 80px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+}
+
+footer {
+  background-color: #231950;
+  text-align: center;
+  padding: 20px;
+}
